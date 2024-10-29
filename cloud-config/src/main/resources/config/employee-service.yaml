@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/emp-2pm
+    username: root
+    password: techno
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9002
+  servlet:
+    context-path: /employee			

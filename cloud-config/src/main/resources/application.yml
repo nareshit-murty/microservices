@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: cloud-config
+  profiles:
+    active: native
+server:
+  port: 9999
